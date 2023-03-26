@@ -1,16 +1,32 @@
 -------------------------------------------------------------------------------
 Test set: com.bbolzan.TestBarca
 -------------------------------------------------------------------------------
-Tests run: 3, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 0.189 s <<< FAILURE! - in com.bbolzan.TestBarca
-com.bbolzan.TestBarca.testaAssentoInvalido(String)[1]  Time elapsed: 0.062 s  <<< FAILURE!
-org.opentest4j.AssertionFailedError: expected: <1> but was: <0>
-	at com.bbolzan.TestBarca.testaAssentoInvalido(TestBarca.java:21)
+Tests run: 12, Failures: 7, Errors: 0, Skipped: 0, Time elapsed: 0.315 s <<< FAILURE! - in com.bbolzan.TestBarca
+com.bbolzan.TestBarca.testGrupoA(String)[2]  Time elapsed: 0.007 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <3> but was: <1>
+	at com.bbolzan.TestBarca.testGrupoA(TestBarca.java:45)
 
-com.bbolzan.TestBarca.testaAssentoInvalido(String)[2]  Time elapsed: 0.001 s  <<< FAILURE!
-org.opentest4j.AssertionFailedError: expected: <1> but was: <0>
-	at com.bbolzan.TestBarca.testaAssentoInvalido(TestBarca.java:21)
+com.bbolzan.TestBarca.testGrupoA(String)[3]  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <3> but was: <0>
+	at com.bbolzan.TestBarca.testGrupoA(TestBarca.java:45)
 
-com.bbolzan.TestBarca.testaAssentoInvalido(String)[3]  Time elapsed: 0.001 s  <<< FAILURE!
-org.opentest4j.AssertionFailedError: expected: <1> but was: <0>
-	at com.bbolzan.TestBarca.testaAssentoInvalido(TestBarca.java:21)
+com.bbolzan.TestBarca.testGrupoB(String)[1]  Time elapsed: 0.003 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <3> but was: <1>
+	at com.bbolzan.TestBarca.testGrupoB(TestBarca.java:60)
+
+com.bbolzan.TestBarca.testGrupoB(String)[2]  Time elapsed: 0.002 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <3> but was: <1>
+	at com.bbolzan.TestBarca.testGrupoB(TestBarca.java:60)
+
+com.bbolzan.TestBarca.testGrupoB(String)[3]  Time elapsed: 0.002 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <3> but was: <0>
+	at com.bbolzan.TestBarca.testGrupoB(TestBarca.java:60)
+
+com.bbolzan.TestBarca.testGrupoC(String)[1]  Time elapsed: 0.002 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <3> but was: <0>
+	at com.bbolzan.TestBarca.testGrupoC(TestBarca.java:75)
+
+com.bbolzan.TestBarca.testGrupoC(String)[3]  Time elapsed: 0.003 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <3> but was: <0>
+	at com.bbolzan.TestBarca.testGrupoC(TestBarca.java:75)
 

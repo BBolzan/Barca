@@ -1,0 +1,31 @@
+Legenda Casos de Testes
+
+Numero da pessoas no barco
+A1 = Grupo A de pessoas 1-100
+A2 = Grupo B de pessoas 101-200
+A3 = Grupo C de pessoas 201-300
+
+Onde a pessoa pode sentar para balancear, F(xx)A(xx) = Numero da fileira + Numero do assento
+B1 = Se for do grupo A ou do C, pode sentar nas fileiras F(1-20)A(1-20)
+B2 = Se for do grupo B ou do C, pode sentar nas fileiras F(21-40)A(1-20)
+B3 = Fileira ou assento não existente    
+
+Retorno do Metodo OcupaLugar
+C1 = 0(assento inválido), 1(assento ocupado), 2(assento bloqueado devido a distribuição de peso)
+C2 = 3(Ok, assento atribuído ao passageiro)
+
+Caso Falso ou Verdadeiro
+D1 = True 
+D2 = false
+
+-----Casos de Testes-----
+
+A1,B1,C2,D1;Grupo A,F05A19,3,T
+A1,B2,C1,D2;Grupo A,F21A19,2,F
+A2,B2,C2,D1;Grupo B,F30A01,3,T
+A2,B1,C1,D2,Grupo B,F01A01,2,F
+A3,B3,C1,D2,Grupo C,F61A22,0,F
+A3,B1,C1,D2,Grupo C,F05A19,1,F
+A3,B2,C2,D1,Grupo C,F60A01,3,T
+A1,B3,C1,D2,Grupo A,F10A50,1,F
+A2,B3,C1,D2,Grupo B,F99A99,1,F
